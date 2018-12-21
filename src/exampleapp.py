@@ -68,7 +68,7 @@ flask_tracer = FlaskTracer(initialize_tracer, True, app, ["url_rule"])
 
 @app.route('/')
 def index():
-    return "Index Page"
+    return "Index Page For The Fork Made By QuinCo"
 
 @app.route('/activeconfig')
 def activeconfig():
